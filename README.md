@@ -1,5 +1,5 @@
 # NLP_selenium
-Using the above code you can use the Natural Language Processing facility provided by IBM Watson Withoout using their APi
+Using the above code you can use the Natural Language Processing facility provided by IBM Watson services (Natural language understanding & Discovery News) Without using their APi
 # Prerequisites
  * Python
  * firefox browser
@@ -10,7 +10,7 @@ Using the above code you can use the Natural Language Processing facility provid
 
  * Serve the msg  variable in the code with the article or the text that has to be processed.
  * Initially web_driver_load() would start up the firefox browser.
- * website_login() here the function requires the http address of the NLU from the bluemix website.
+ * website_login() here the function resquires the http address of the NLU from the bluemix website.
  * wait function holds the program to pause.
  * Later sendMessage() would call the function that would place the the article into the web page text area.
  *Within this function the friver selects the text area through the source code of the page and then puts the article in the text area.
